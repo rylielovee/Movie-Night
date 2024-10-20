@@ -684,7 +684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.636169, y: -312.90137}
+  m_AnchoredPosition: {x: 0, y: -312}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &139318089
@@ -1700,6 +1700,10 @@ PlayableDirector:
     value: {fileID: 2005620780}
   - key: {fileID: -1099712911893054927, guid: f1e66e4a183b7e24da12d5b93c22783f, type: 2}
     value: {fileID: 1163599560}
+  - key: {fileID: -1187608748253518039, guid: f1e66e4a183b7e24da12d5b93c22783f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 8457526489930169925, guid: f1e66e4a183b7e24da12d5b93c22783f, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &693621383
@@ -2179,7 +2183,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 200}
+  m_SizeDelta: {x: 350, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1022595477
 MonoBehaviour:
@@ -2201,7 +2205,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '**Player Score**'
+  m_text: '**Player Score**
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -2244,7 +2250,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -4833,20 +4839,21 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Rylie Love -------- Lead Programmer
 
-    Reilly Lawson ----- Lead Programmer
+    Reilly Lawson -------- Lead Programmer
 
     Edward
-    Choi ------ System Admin / Programmer
+    Choi -------- System Admin / Programmer
 
-    Sean Bethel ------ Lead Artist / Programmer
+    Sean Bethel -------- Lead Artist
+    / Programmer
 
-    Jacob
-    "LURV" Lurvey ------ Lead Sound / Programmer
+    Jacob "LURV" Lurvey -------- Lead Sound / Programmer
 
-    Jason Henderson - Sound / Programmer
+    Jason
+    Henderson -------- Sound / Programmer
 
-    Lilly
-    Radon -------- Artist'
+    Lilly Radon -----------------------
+    Artist'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -4885,11 +4892,11 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 20
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
